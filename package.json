@@ -9,7 +9,7 @@
     "chai-aur-code"
   ],
   "repository": {
-    "type": "git"
+    "type": "module"
   },
   "license": "ISC",
   "author": "Ningappa",
@@ -17,5 +17,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
