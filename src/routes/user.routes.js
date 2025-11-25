@@ -4,7 +4,8 @@ import { upload } from "../middlewares/multer.middleware.js";
 
 const router = Router()
 
-router.route("/register").post(registerUser).post(
+// Use multer to parse multipart/form-data before hitting the controller
+router.route("/register").post(
     upload.fields([
         {
             name: "avatar",

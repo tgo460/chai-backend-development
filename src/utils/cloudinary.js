@@ -1,7 +1,6 @@
+import "dotenv/config"
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs"; // fs is file system it is used to read write the files and working on files
-
-import { v2 as cloudinary } from 'cloudinary';
 
 
 // Configuration
